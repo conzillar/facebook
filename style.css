@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244,245,246);
+    display: flex;
+}
+.kack{
+    width: 50%;
+    margin-top: 8%;
+    height: 450px;
+}
+.logo{
+    padding: 8rem 0 0 5rem;
+}
+h1{
+    color:  #1877f2;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    height: 450px;    
+}
+.box{
+    width: 350px;
+    height: 310px;
+    margin-top: 10%;
+    border-radius: 10px;
+    margin-left: 15%;
+    background-color: #fff;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 7%;
+}
+.content-control{
+    width: 300px;
+    height: 45px;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding:.375rem.75rem;
+}
+.content-control::placeholder{
+    font-size: 15px;
+    margin-left: 5%;
+}
+.button{
+    width:300px;
+    height: 40px;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #fff;
+    color: #fff;
+    background-color: #1877f2;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #0d5dc5;
+}
+a{
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-left: 29%;
+    color: #1877f2;
+}
+.button2{
+    width:200px;
+    height: 40px;
+    margin-top: 1rem;
+    margin-left: 17%;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #fff;
+    color: #fff;
+    background-color: rgb(18,188,18);
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: #14d44e;
+}
+.hack{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 19%;
+}
+h4{
+    color: black;
+}
+h5{
+    font-size: 15px;
+    color: #777474;
+    margin-top:0.1%;
+}
+
