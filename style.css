@@ -113,3 +113,12 @@ h5{
     margin-top:0.1%;
 }
 
+@media screen and (max-width:40rem) {
+    .kack{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+    }
+}
