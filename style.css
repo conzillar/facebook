@@ -3,123 +3,278 @@
     padding: 0%;
     margin: 0;
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(244,245,246);
-    display: flex;
-}
-.kack{
-    width: 50%;
-    margin-top: 8%;
-    height: 450px;
-    display: block;
-}
-.logo{
-    padding: 8rem 0 0 5rem;
-}
-h1{
-    color:  #1877f2;
-    font-size: 50px;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h3{
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.content{
-    width: 50%;
-    margin-top: 8%;
-    height: 450px;    
-}
-.box{
-    width: 350px;
-    height: 310px;
-    margin-top: 10%;
-    border-radius: 10px;
-    margin-left: 15%;
-    background-color: #fff;
-}
-.inputs{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    margin-left: 7%;
-}
-.content-control{
-    width: 300px;
-    height: 45px;
-    margin-top: 1rem;
-    border-radius: 4px;
-    border: 1px solid black;
-    padding:.375rem.75rem;
-}
-.content-control::placeholder{
-    font-size: 15px;
-    margin-left: 5%;
-}
-.button{
-    width:300px;
-    height: 40px;
-    margin-top: 1rem;
-    border-radius: 4px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: #fff;
-    color: #fff;
-    background-color: #1877f2;
-}
-.button:hover{
-    cursor: pointer;
-    background-color: #0d5dc5;
-}
-a{
-    text-decoration: none;
-    margin-top: 1rem;
-    margin-bottom: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    margin-left: 29%;
-    color: #1877f2;
-}
-.button2{
-    width:200px;
-    height: 40px;
-    margin-top: 1rem;
-    margin-left: 17%;
-    border-radius: 4px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: #fff;
-    color: #fff;
-    background-color: rgb(18,188,18);
-}
-.button2:hover{
-    cursor: pointer;
-    background-color: #14d44e;
-}
-.hack{
-    display: flex;
-    margin-top: 3%;
-    margin-left: 19%;
-}
-h4{
-    color: black;
-}
-h5{
-    font-size: 15px;
-    color: #777474;
-    margin-top:0.1%;
-}
-
-@media screen and (max-width:992px) {
-    .kack{
-        display: none;
+/* @media screen and (min-width:1024px) { */
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(244,245,246);
+        display: flex;
     }
+    .kack{
+        width: 50%;
+        margin-top: 8%;
+        height: 450px;
+        display: block;
+    }
+    .logo{
+        padding: 8rem 0 0 5rem;
+    }
+    h1{
+        color:  #1877f2;
+        font-size: 50px;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .content{
+        width: 50%;
+        margin-top: 8%;
+        height: 450px;    
+    }
+    .box{
+        width: 350px;
+        height: 310px;
+        margin-top: 10%;
+        border-radius: 10px;
+        margin-left: 15%;
+        background-color: #fff;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-left: 7%;
+    }
+    .content-control{
+        width: 300px;
+        height: 45px;
+        margin-top: 1rem;
+        border-radius: 4px;
+        border: 1px solid black;
+        padding:.375rem.75rem;
+    }
+    .content-control::placeholder{
+        font-size: 15px;
+        margin-left: 5%;
+    }
+    .button{
+        width:300px;
+        height: 40px;
+        margin-top: 1rem;
+        border-radius: 4px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: #fff;
+        color: #fff;
+        background-color: #1877f2;
+    }
+    .button:hover{
+        cursor: pointer;
+        background-color: #0d5dc5;
+    }
+    a{
+        text-decoration: none;
+        margin-top: 1rem;
+        margin-bottom: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin-left: 29%;
+        color: #1877f2;
+    }
+    .button2{
+        width:200px;
+        height: 40px;
+        margin-top: 1rem;
+        margin-left: 17%;
+        border-radius: 4px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: #fff;
+        color: #fff;
+        background-color: rgb(18,188,18);
+    }
+    .button2:hover{
+        cursor: pointer;
+        background-color: #14d44e;
+    }
+    .hack{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 19%;
+    }
+    h4{
+        color: black;
+    }
+    h5{
+        font-size: 15px;
+        color: #777474;
+        margin-top:0.1%;
+    }
+/* } */
 
+@media screen and (max-width:760px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        height:500px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #0d5dc5; */
+    }
+    .kack{
+        width: 100%;
+        height:300px;
+        margin-top:-0.2rem ;
+        /* border: 1px solid red; */
+        background-color: #0d5dc5;
+
+    }
+    .logo h1{
+        font-size: 2rem;
+        color: #fff;
+        margin-left: -1rem;
+    }
+    .logo h3{
+        font-size:1rem ;
+        color: #fff;
+        margin-left: -1rem;
+    }
     .content{
         width: 100%;
+        height: 100px;
+        margin-left: -2.7rem;
+        margin-top: -1.7rem;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: -12rem; */
+        display:block;
+        flex-wrap: wrap;
+    }
+    .hack{
+        width: 100%;
+
+    }
+} 
+@media screen and (min-width:760px) and (max-width:1024px) {
+    .container{
+        width: 1024px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        /* background-color: #0d5dc5; */
+    }
+    .kack{
+        width: 1024px;
+        height: 500px;
+        margin-top: -0.2rem ;
+        display: block;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        background-color: #0d5dc5;
+    /* background: red; */
+
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo h1{
+        font-size: 4rem;
+        color: #fff;
+        display: block;
+        flex-wrap: wrap;
+        margin-left: -1rem;
+    }
+    .logo h3{
+        margin-top: 0.5rem;
+        font-size: 3.4rem ;
+        color: #fff;
+        display: block;
+        flex-wrap: wrap;
+        margin-left: -1rem;
+    }
+    .content{
+        width: 100%;
+        height: 100px;
+        margin-left: -2.7rem;
+        margin-top: -1.7rem;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: -12rem; */
+        display:block;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 800px;
+        height: 600px;
+        /* border: 2px solid red; */
+    }
+    .content-control{
+        width: 680px;
+        height: 60px;
+        margin-top: 1rem;
+        border-radius: 4px;
+        border: 1px solid black;
+        padding:.375rem.75rem;
+        
+    }
+    .content-control::placeholder{
+        font-size: 1.8rem;
+    }
+    .button{
+        width:680px;
+        height: 70px;
+        margin-top: 1rem;
+        border-radius: 4px;
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: #fff;
+        color: #fff;
+        background-color: #1877f2;
+    }
+
+    a{
+        text-decoration: none;
+        margin-top: 1rem;
+        margin-bottom: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.9rem;
+        margin-left: 29%;
+        color: #1877f2;
+    }
+
+    .button2{
+        width:500px;
+        height: 70px;
+        margin-top: 1rem;
+        margin-left: 17%;
+        border-radius: 4px;
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: #fff;
+        color: #fff;
+        background-color: rgb(18,188,18);
+    }
+    .hack{
+        width: 900px;
+        display: flex;
+        
+        flex-wrap: wrap;
+
+    }
+
+    .hack h4{
+        font-size: 1.9rem;
+    }
+    .hack h5{
+        margin-left: 0.5rem;
+
+        font-size: 1.9rem;
     }
 }
